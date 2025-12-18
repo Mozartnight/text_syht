@@ -15,13 +15,14 @@
         android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/syht_medium"
-        android:text="思源黑体1思源黑体1思源黑体1思源黑体1思源黑体1思源黑体1思源黑体1思源黑体1"
-        android:textSize="18dp"
+        android:text="思源黑体1思源黑体1思思源黑体1思源黑体1思思源黑体"
+        android:fontFamily="@font/sourcehansanscn_medium"
+        android:textSize="16dp"
+        android:lineHeight="100dp"
         android:includeFontPadding="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,8 +41,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/sourcehansanscn_medium"
-        android:text="思源黑体2"
+        android:text="思源黑体2思源黑体2思源黑体2思源黑体2思源黑体2思"
         android:textSize="16sp"
+        android:lineHeight="100dp"
         android:includeFontPadding="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
